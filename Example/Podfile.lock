@@ -1,0 +1,155 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AwesomeCache (5.0)
+  - CCNetwokingKit (1.0.0):
+    - Alamofire (~> 4.8.1)
+    - AwesomeCache (~> 5.0)
+    - CryptoSwift (~> 0.14.0)
+    - DeviceKit (~> 2.0.0)
+    - FMDB (~> 2.7.5)
+    - KeychainAccess (~> 3.1.2)
+    - LKDBHelper (~> 2.5.1)
+    - Moya (~> 14.0.0-alpha.1)
+    - Moya/RxSwift (~> 14.0.0-alpha.1)
+    - "NSObject+Rx (~> 5.0.0)"
+    - ObjectMapper (~> 3.3.0)
+    - PromiseKit
+    - ReachabilitySwift
+    - RxAlamofire (~> 5.0.0)
+    - RxBlocking (~> 5.0.0)
+    - RxCocoa (~> 5.0.0)
+    - RxSwift (~> 5.0.0)
+    - SwifterSwift (~> 4.6.0)
+    - SwiftyJSON (~> 4.1.0)
+    - XCGLogger (~> 7.0.0)
+  - CryptoSwift (0.14.0)
+  - DeviceKit (2.0.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - KeychainAccess (3.1.2)
+  - LKDBHelper (2.5.1):
+    - LKDBHelper/standard (= 2.5.1)
+  - LKDBHelper/standard (2.5.1):
+    - FMDB
+  - Moya (14.0.0-alpha.1):
+    - Moya/Core (= 14.0.0-alpha.1)
+  - Moya/Core (14.0.0-alpha.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (14.0.0-alpha.1):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - "NSObject+Rx (5.0.0)":
+    - RxSwift (~> 5.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - ObjectMapper (3.3.0)
+  - PromiseKit (6.10.0):
+    - PromiseKit/CorePromise (= 6.10.0)
+    - PromiseKit/Foundation (= 6.10.0)
+    - PromiseKit/UIKit (= 6.10.0)
+  - PromiseKit/CorePromise (6.10.0)
+  - PromiseKit/Foundation (6.10.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.10.0):
+    - PromiseKit/CorePromise
+  - ReachabilitySwift (4.3.1)
+  - Result (4.1.0)
+  - RxAlamofire (5.0.0):
+    - RxAlamofire/Core (= 5.0.0)
+  - RxAlamofire/Core (5.0.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxBlocking (5.0.0):
+    - RxSwift (~> 5)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SwifterSwift (4.6.0):
+    - SwifterSwift/AppKit (= 4.6.0)
+    - SwifterSwift/CoreGraphics (= 4.6.0)
+    - SwifterSwift/CoreLocation (= 4.6.0)
+    - SwifterSwift/Foundation (= 4.6.0)
+    - SwifterSwift/MapKit (= 4.6.0)
+    - SwifterSwift/SpriteKit (= 4.6.0)
+    - SwifterSwift/SwiftStdlib (= 4.6.0)
+    - SwifterSwift/UIKit (= 4.6.0)
+  - SwifterSwift/AppKit (4.6.0)
+  - SwifterSwift/CoreGraphics (4.6.0)
+  - SwifterSwift/CoreLocation (4.6.0)
+  - SwifterSwift/Foundation (4.6.0)
+  - SwifterSwift/MapKit (4.6.0)
+  - SwifterSwift/SpriteKit (4.6.0)
+  - SwifterSwift/SwiftStdlib (4.6.0)
+  - SwifterSwift/UIKit (4.6.0)
+  - SwiftyJSON (4.1.0)
+  - XCGLogger (7.0.0):
+    - XCGLogger/Core (= 7.0.0)
+  - XCGLogger/Core (7.0.0):
+    - ObjcExceptionBridging
+
+DEPENDENCIES:
+  - CCNetwokingKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AwesomeCache
+    - CryptoSwift
+    - DeviceKit
+    - FMDB
+    - KeychainAccess
+    - LKDBHelper
+    - Moya
+    - "NSObject+Rx"
+    - ObjcExceptionBridging
+    - ObjectMapper
+    - PromiseKit
+    - ReachabilitySwift
+    - Result
+    - RxAlamofire
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwifterSwift
+    - SwiftyJSON
+    - XCGLogger
+
+EXTERNAL SOURCES:
+  CCNetwokingKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AwesomeCache: d8906955242173357caa0be0214d5e77dec32cc5
+  CCNetwokingKit: f8481211328e138afb349cdd292dc925c3ce90ac
+  CryptoSwift: 35a10419f4dbf0619c13f8c1c180037e115323fa
+  DeviceKit: 72d36709552d4b3582abd76a53949148acad9811
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  KeychainAccess: b3816fddcf28aa29d94b10ec305cd52be14c472b
+  LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
+  Moya: 65485239114b3b327a17dc2e839f6c8b7143aae9
+  "NSObject+Rx": 6151a97d171f7187c4183746acc42d9451952a7b
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  PromiseKit: 1fdaeb6c0a94a5114fcb814ff3d772b86886ad4e
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxAlamofire: e7875a012aff55345672d0f70a2a9cd6aeb0f211
+  RxBlocking: c67185d26498ea3cbe3e121917c3c16739e43123
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  XCGLogger: 0434f15e3909cdc450bb63faf638b8792ab782ab
+
+PODFILE CHECKSUM: 7dce1e66294ad8ef0189f574d36822fc77d60e15
+
+COCOAPODS: 1.7.4

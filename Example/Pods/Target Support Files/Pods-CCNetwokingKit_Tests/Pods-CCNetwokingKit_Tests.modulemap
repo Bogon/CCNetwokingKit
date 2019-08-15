@@ -1,0 +1,6 @@
+framework module Pods_CCNetwokingKit_Tests {
+  umbrella header "Pods-CCNetwokingKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
