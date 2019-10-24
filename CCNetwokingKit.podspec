@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CCNetwokingKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'CCNetwokingKit 是通用的网络层框架。带有缓存。'
   s.swift_version    = '4.0'
 # This description is used to generate tags and improve search results.
@@ -72,7 +72,7 @@ CCNetwokingKit 是通用的网络层框架。
   s.dependency 'KeychainAccess', '~> 3.1.2'         # KeychainAccess
   
   # System And Security
-  s.dependency 'DeviceKit', '~> 2.0.0'              # 设备信息管理和获取
+  s.dependency 'DeviceKit', :git => 'https://github.com/devicekit/DeviceKit.git', :branch => 'master'              # 设备信息管理和获取
   s.dependency 'CryptoSwift', '~> 0.14.0'           # Cryptography in Swift.
   
   # Anch
